@@ -70,14 +70,3 @@ sub_keyboard_4= InlineKeyboardMarkup(resize_keyboard=True,row_width=1).add(sub_b
 #По Чисельнику#
 sub_keyboard_4_1 = InlineKeyboardMarkup(resize_keyboard=True,row_width=1).add(sub_button13_2,sub_button13_1,sub_button14)
 sub_keyboard_4_1.add(sub_button0)
-# |gmail
-# |gmail
-# |gmail
-# |gmail
-# |gmail
-sub_button01=KeyboardButton()
-sub_button02=KeyboardButton()
-sub_button03=KeyboardButton()
-sub_button04=KeyboardButton()
-sub_button05=KeyboardButton()
-sub_button06=KeyboardButton()
