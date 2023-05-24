@@ -123,7 +123,7 @@ async def cmd_back(message: types.Message):
 @dp.message_handler(text=['Чисельник'], user_id=ALLOWED_USERS)
 async def handle_chil(message: types.Message):
     await bot.delete_message(message.from_user.id, message.message_id)
-    await bot.send_message(message.from_user.id,"Выберите день недели:", reply_markup=nav.keyboard2)
+    await bot.send_message(message.from_user.id,"Выберите день недели:", reply_markup=nav.keyboard)
 @dp.message_handler(text=['Понедельник💼'], user_id=ALLOWED_USERS)
 async def handle_monday(message: types.Message):
     await bot.delete_message(message.from_user.id, message.message_id)
