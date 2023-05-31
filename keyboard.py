@@ -25,10 +25,10 @@ button004 = KeyboardButton(
     text='Четверг🌤️')
 button005 = KeyboardButton(
     text='Пятница💼')
-keyboard = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=False,row_width=3).add(button1,button2,button3,button4,button5)
+keyboard = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True,row_width=3).add(button1,button2,button3,button4,button5)
 keyboard.add(button6)
 keyboard1 = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True,row_width=2).add(button01,button02,button03)
-keyboard2 = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=False,row_width=3).add(button001,button002,button003,button004,button005)
+keyboard2 = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True,row_width=3).add(button001,button002,button003,button004,button005)
 keyboard2.add(button6)
 
 #Понедельник
